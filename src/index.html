@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Yatzhee Montecarlo</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <h1>Yatzhee - Simulación Montecarlo</h1>
+  <div id="game">
+    <div id="players">
+      <div id="player1" class="player active">
+        Jugador 1: <span id="score1">0</span>
+        (<span id="turn-info1">Turno 1/13</span>) <!-- NUEVO -->
+      </div>
+      <div id="player2" class="player">
+        Jugador 2: <span id="score2">0</span>
+        (<span id="turn-info2">Turno 1/13</span>) <!-- NUEVO -->
+      </div>
+    </div>
+    <div id="dice-container">
+      <!-- Aquí se mostrarán los dados -->
+    </div>
+    <div id="controls">
+      <button id="roll-btn">Lanzar Dados</button>
+      <button id="reroll-btn" disabled>Volver a Lanzar Seleccionados</button>
+      <button id="end-turn-btn" disabled>Terminar Turno</button>
+    </div>
+    <div id="score-table-container">
+      <table id="score-table">
+        <thead>
+          <tr><th>Categoría</th><th>Jugador 1</th><th>Jugador 2</th></tr>
+        </thead>
+        <tbody>
+          <!-- Filas de puntuación -->
+        </tbody>
+      </table>
+    </div>
+    <div id="message"></div>
+  </div>
+  <script src="../assets/main.js"></script>
+</body>
+</html>
