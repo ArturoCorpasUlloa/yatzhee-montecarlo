@@ -1,0 +1,34 @@
+Yatzhee Montecarlo
+Este proyecto es una simulación del juego de Yatzee implementada mediante el método de Montecarlo. Su propósito es analizar y visualizar probabilidades estadísticas asociadas con las combinaciones posibles de dados en este popular juego de mesa.
+
+Características principales
+Simulación de miles de tiradas de dados para calcular probabilidades.
+
+Interfaz web sencilla desarrollada con HTML, CSS y JavaScript.
+
+Visualización de resultados en tiempo real.
+
+Uso del método de Montecarlo para estimar la frecuencia de combinaciones específicas.
+
+Estructura del proyecto
+src/index.html: Página principal de la aplicación.
+
+assets/styles.css: Estilos para la interfaz gráfica.
+
+assets/main.js: Lógica principal que realiza la simulación Montecarlo.
+
+
+Requisitos
+No se requieren instalaciones adicionales. Basta con abrir el archivo src/index.html en cualquier navegador web moderno para ejecutar la simulación.
+
+Uso
+Clona o descarga este repositorio.
+
+Abre src/index.html en tu navegador.
+
+Interactúa con la interfaz para iniciar la simulación de tiradas.
+
+Observa las estadísticas generadas automáticamente.
+
+Licencia
+Este proyecto está destinado únicamente para fines educativos y de experimentación para la clase de simulación de la IUDigital de Antioquia.
